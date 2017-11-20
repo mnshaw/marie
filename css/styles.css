@@ -1,0 +1,30 @@
+#main {
+	background-color: #434343ff;
+	color: white;
+}
+#main h1 {
+	font-size: 500%;
+}
+#main h1,h2 {
+	margin-left: 5%;
+}
+#main #sub {
+	color: #333;
+}
+
+#about {
+	background-color: blue;
+}
+
+#projects {
+	background-color: pink;
+}
+
+#links {
+	background-color: green;
+}
+
+#menu {
+	background-color: #d9d9d9ff;
+	height: 100%;
+}
