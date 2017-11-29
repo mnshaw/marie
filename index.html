@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Marie Shaw</title>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="fullPage.js-master/jquery.fullPage.css">
@@ -25,7 +26,68 @@
 			<h2>Engineering Student, Programmer, Food Lover</h2>
 			<h2 id="sub">Keep scrolling to explore my menu...</h2>
 		</div>
-		<div class="section" id="about">Some section</div>
+		<div class="section" id="about">
+			<!-- Desktop version -->
+			<div class="container hidden-xs">
+				<div class="col-sm-6" id="appetizers">
+					<h2><b>Appetizers</b></h2>
+					<h2 style="text-align:right; margin-right:5%; margin-top:-3%;">Fun Facts</h2>
+					<hr>
+					<ul>
+						<li>From California</li>
+						<p>born in Boston and educated in Pittsburgh</p>
+						<li>I live for food</li>
+						<p>favorite brunch foods are eggs benedict and chilaquiles</p>
+						<li>Native bilingual</li>
+						<p>dual citizenship from USA and Japan</p>
+					</ul>
+					<img src="images/eggs2.jpg" alt="eggs benedict" class="food">
+				</div>
+				<div class="col-sm-6" id="entrees">
+					<h2><b>Entrees</b></h2>
+					<h2 style="text-align:right; margin-right:5%; margin-top:-3%;">Serious Facts</h2>
+					<hr>
+					<img src="images/me.jpg" alt="Marie lying on a pile of paper" id="me">
+					<ul id="about-text">
+						<li>Carnegie Mellon University Class of 2018</li>
+						<li>BS in Electrical and Computer Engineering</li>
+						<li>Minor in Human Computer Interaction</li>
+						<li>Full stack developer</li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- Mobile version -->
+			<div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+				<h2><b>Appetizers</b></h2>
+				<h2 style="text-align:right; margin-right:5%; margin-top:-3%;">Fun Facts</h2>
+				<hr>
+				<ul>
+					<li>From California</li>
+					<p>born in Boston and educated in Pittsburgh</p>
+					<li>I live for food</li>
+					<p>favorite brunch foods are eggs benedict and chilaquiles</p>
+					<li>Native bilingual</li>
+					<p>dual citizenship from USA and Japan</p>
+				</ul>
+				<img src="images/eggs2.jpg" alt="eggs benedict" class="food mobile">
+			</div>
+
+			<div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+				<h2><b>Entrees</b></h2>
+				<h2 style="text-align:right; margin-right:5%; margin-top:-3%;">Serious Facts</h2>
+				<hr>
+				<img src="images/me.jpg" alt="Marie lying on a pile of paper" id="me" class="mobile">
+				<ul id="about-text">
+					<li>Carnegie Mellon University Class of 2018</li>
+					<li>BS in Electrical and Computer Engineering</li>
+					<li>Minor in Human Computer Interaction</li>
+					<li>Full stack developer</li>
+				</ul>
+			</div>
+
+		</div>
+
 		<div class="section" id="projects">Some section</div>
 		<div class="section" id="links">Some section</div>
 	</div>

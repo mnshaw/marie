@@ -1,6 +1,13 @@
+body {
+	font-family: 'Inconsolata', monospace;
+}
+
 #main {
 	background-color: #434343ff;
+	background-image: url("../images/plate.png");
+	background-repeat: no-repeat;
 	color: white;
+	background-position: center;
 }
 #main h1 {
 	font-size: 500%;
@@ -13,15 +20,59 @@
 }
 
 #about {
-	background-color: blue;
+	background-color: #999999ff;
+}
+
+#about li {
+	font-size: 130%;
+}
+
+.container {
+	width: 100%;
+	padding: 0;
+	height: 100%;
+}
+
+#appetizers {
+	/*border-right: 1px double #434343ff;*/
+	height:100%;
+}
+
+.food {
+	display: block;
+	height: 400px;
+	margin:auto;
+	margin-top: 5%;
+}
+
+.food.mobile {
+	height: 300px;
+}
+
+#entrees {
+	height: 100%;
+}
+
+#me {
+	display: block;
+	height: 300px;
+	margin: auto;
+}
+
+#me.mobile {
+	height: 200px;
+}
+
+#about-text {
+	margin-top: 5%;
 }
 
 #projects {
-	background-color: pink;
+	background-color: #b7b7b7ff;
 }
 
 #links {
-	background-color: green;
+	background-color: #ccccccff;
 }
 
 #menu {
