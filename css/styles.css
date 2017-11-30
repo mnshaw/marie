@@ -55,7 +55,7 @@ body {
 	margin: auto;
 }
 
-#me.mobile {
+#me2.mobile {
 	height: 200px;
 }
 
@@ -73,6 +73,30 @@ body {
 
 #links {
 	background-color: #ccccccff;
+}
+
+#fortune {
+	margin-top: 2%;
+}
+
+/*#LI-profile-badge {
+	display: inline-block;
+	margin-right: 5%;
+}*/
+
+#linkedin, #github {
+	display: inline-block;
+	margin-right: 5%;
+}
+
+#github {
+	margin-top: 2%;
+}
+
+#me2 {
+	display: block;
+	height: 350px;
+	margin: auto;
 }
 
 #menu {

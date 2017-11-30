@@ -15,7 +15,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="fullPage.js-master/jquery.fullPage.js"></script>
-
+	<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
   </head>
 
 <body>
@@ -25,6 +25,7 @@
 			<h2>Engineering Student, Programmer, Food Lover</h2>
 			<h2 id="sub">Keep scrolling to explore my menu...</h2>
 		</div>
+
 		<div class="section" id="about">
 			<!-- Desktop version -->
 			<div class="container hidden-xs">
@@ -46,7 +47,9 @@
 					<h2><b>Entrees</b></h2>
 					<h2 style="text-align:right; margin-right:5%; margin-top:-3%;">Serious Facts</h2>
 					<hr>
-					<img src="images/me.jpg" alt="Marie lying on a pile of paper" id="me">
+					
+					<img src="images/me2.jpg" alt="Marie standing against a wall with graffiti" id="me2">
+
 					<ul id="about-text">
 						<li>Carnegie Mellon University Class of 2018</li>
 						<li>BS in Electrical and Computer Engineering</li>
@@ -79,7 +82,8 @@
 				<h2><b>Entrees</b></h2>
 				<h2 style="text-align:right; margin-right:5%; margin-top:-3%;">Serious Facts</h2>
 				<hr>
-				<img src="images/me.jpg" alt="Marie lying on a pile of paper" id="me" class="mobile">
+				<img src="images/me2.jpg" alt="Marie standing against a wall with graffiti" id="me2" class="mobile">
+
 				<ul id="about-text">
 					<li>Carnegie Mellon University Class of 2018</li>
 					<li>BS in Electrical and Computer Engineering</li>
@@ -94,7 +98,7 @@
 		</div>
 
 		<div class="section" id="projects">
-			<div class="container hidden-xs">
+			<div class="container">
 				<div class="col-sm-12" id="drinks">
 					<h2><b>Drinks List</b></h2>
 					<h2 style="text-align:right; margin-right:5%; margin-top:-3%;">Projects</h2>
@@ -104,7 +108,7 @@
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/2ay_8a6-EYM" frameborder="0" class="gubernator video" allowfullscreen></iframe>
 
 					<hr class="gubernator docker">
-					
+
 					<div class="col-sm-12 buttons">
 						<button type="button" id="detours-btn" class="btn btn-primary">Detours</button>
 						<button type="button" id="gub-btn" class="btn">Gubernator</button>
@@ -216,7 +220,38 @@
 
 		</div>
 
-		<div class="section" id="links">Some section</div>
+		<div class="section" id="links">
+			<div class="container">
+				<div class="col-sm-12" id="takeout">
+					<h2><b>Takeout</b></h2>
+					<h2 style="text-align:right; margin-right:5%; margin-top:-3%;">Links</h2>
+					<hr>
+					
+					<div class="col-sm-8">
+						
+						<!-- <div id="linkedin"> -->
+						<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="mnshaw"><a class="LI-simple-link" href='https://www.linkedin.com/in/mnshaw?trk=profile-badge'>Marie Shaw</a></div>
+						<!-- </div> -->
+						<div id="github">
+							<iframe src="http://githubbadge.appspot.com/mnshaw" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
+						</div>
+					</div>
+
+					<div class="col-sm-4">
+						<img src="images/me.jpg" alt="Marie lying on a pile of paper" id="me">
+					</div>
+
+				</div>
+				<div class="col-sm-12" id="fortune">
+					<h2><b>Fortune Cookie</b></h2>
+					<hr>
+					<button type="button" id="fortune-btn" class="btn btn-primary">Click Me!</button>
+					<h3>Your Fortune:</h3>
+					<div id="fortune-text">
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 </body>
 
