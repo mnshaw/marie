@@ -15,7 +15,6 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="fullPage.js-master/jquery.fullPage.js"></script>
-	<script src="js/script.js"></script>
 
   </head>
 
@@ -41,7 +40,7 @@
 						<li>Native bilingual</li>
 						<p>dual citizenship from USA and Japan</p>
 					</ul>
-					<img src="images/eggs2.jpg" alt="eggs benedict" class="food">
+					<img src="images/eggs2.JPG" alt="eggs benedict" class="food">
 				</div>
 				<div class="col-sm-6" id="entrees">
 					<h2><b>Entrees</b></h2>
@@ -73,7 +72,7 @@
 					<li>Native bilingual</li>
 					<p>dual citizenship from USA and Japan</p>
 				</ul>
-				<img src="images/eggs2.jpg" alt="eggs benedict" class="food mobile">
+				<img src="images/eggs2.JPG" alt="eggs benedict" class="food mobile">
 			</div>
 
 			<div class="col-xs-12 hidden-sm hidden-md hidden-lg">
@@ -94,10 +93,133 @@
 
 		</div>
 
-		<div class="section" id="projects">Some section</div>
+		<div class="section" id="projects">
+			<div class="container hidden-xs">
+				<div class="col-sm-12" id="drinks">
+					<h2><b>Drinks List</b></h2>
+					<h2 style="text-align:right; margin-right:5%; margin-top:-3%;">Projects</h2>
+					<hr>
+
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/wSzZxbDYgtY" frameborder="0" class="docker video" allowfullscreen></iframe>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/2ay_8a6-EYM" frameborder="0" class="gubernator video" allowfullscreen></iframe>
+
+					<hr class="gubernator docker">
+					
+					<div class="col-sm-12 buttons">
+						<button type="button" id="detours-btn" class="btn btn-primary">Detours</button>
+						<button type="button" id="gub-btn" class="btn">Gubernator</button>
+						<button type="button" id="docker-btn" class="btn">Docker Console</button>
+						<button type="button" id="research-btn" class="btn">Research Projects</button>
+					</div>
+
+					<div class="col-sm-8 detours">
+						<h3>Detours: Rerouting traffic to custom services</h3>
+						<p>summer intern at Google in 2017 on Dynamic Search Ads team</p>
+						<ul>
+							<li>Vastly improved features on a web frontend used by Youtube and Video Ads devs that reroutes user traffic to custom services</li>
+							<li>Added feature in Android Youtube Dev mobile app attaching cookies to HTTP requests</li>
+							<li>Improved a differ tool by uploading diffs to test result site</li>
+						</ul>
+					</div>
+					<div class="col-sm-4 detours">
+						<h4>Technologies Utilized:</h4>
+						<ul>
+							<li>Golang</li>
+							<li>Python</li>
+							<li>HTML/CSS/JS</li>
+							<li>AngularJS</li>
+							<li>Android Studio/Java</li>
+							<li>Protocol buffers</li>
+							<li>Bigtable</li>
+						</ul>
+					</div>
+
+					<div class="col-sm-8 gubernator">
+						<h3>Gubernator: Simplify and automate Kubernetes debugging</h3>
+						<p>summer intern at Google in 2016 on Kubernetes team</p>
+						<ul>
+							<li>Worked on Kubernetes, an open-source container orchestration system</li>
+							<li>Developed web application running on Google App Engine to simplify and automate debugging steps with an emphasis on log filtering</li>
+							<li>Project code is on Github (keep scrolling for links!)</li>
+						</ul>
+					</div>
+					<div class="col-sm-4 gubernator">
+						<h4>Technologies Utilized:</h4>
+						<ul>
+							<li>Golang</li>
+							<li>Python</li>
+							<li>HTML/CSS/JS</li>
+							<li>Kubernetes</li>
+							<li>Google App Engine</li>
+							<li>Google Cloud Storage</li>
+						</ul>
+					</div>
+
+					<div class="col-sm-8 docker">
+						<h3>Docker Console: A graphical Docker client in your terminal</h3>
+						<p>summer intern at Docker in 2015</p>
+						<ul>
+							<li>Developed a curses/text based user interface for Docker</li>
+							<li>Made most Docker command line arguments available through interface including: ps, pull, push, exec, commit, run, stop, start, delete, inspect...</li>
+							<li>First software engineering intern at Docker</li>
+							<li>Gained experience with an open source project and community</li>
+							<li>Project code is on Github (keep scrolling for links!)</li>
+						</ul>
+					</div>
+					<div class="col-sm-4 docker">
+						<h4>Technologies Utilized:</h4>
+						<ul>
+							<li>Python</li>
+							<li>Docker</li>
+						</ul>
+					</div>
+
+
+					<div class="col-sm-8 research">
+						<h3>Voka</h3>
+						<p>research assistant at CMU in Fall 2017 (Advisor: Dr. Jeff Bigham)</p>
+						<ul>
+							<li>Designed and developed mobile app to facilitate interactions between deaf people and speech controlled devices such as the Amazon Alexa</li>
+							<li>Collaborated with designers</li>
+							<li>Programmed and wrote documentation for a iSpy like game that collected data</li>
+							<li>Project code is on Github (keep scrolling for links!)</li>
+						</ul>
+					</div>
+					<div class="col-sm-4 research">
+						<h4>Technologies Utilized:</h4>
+						<ul>
+							<li>HTML/CSS/JS</li>
+							<li>Phonegap</li>
+							<li>Android Studio/Java</li>
+						</ul>
+					</div>
+					<div class="col-sm-8 research">
+						<h3>Infant Learning and Language Lab</h3>
+						<p>research assistant at CMU in Spring 2017 (Advisor: Dr. Erik Thiessen)</p>
+						<ul>
+							<li>Investigated how learning outcomes in childhood vary using different presentations (static vs. digital technologies)</li>
+							<li>Designed and developed executive function tasks using MATLAB to contribute to data collection on working memory, attention, and inhibitory control of 4 year olds</li>
+							<li>Programmed and wrote documentation for a iSpy like game that collected data</li>
+							<li>Project code is on Github (keep scrolling for links!)</li>
+						</ul>
+					</div>
+					<div class="col-sm-4 research">
+						<h4>Technologies Utilized:</h4>
+						<ul>
+							<li>Matlab</li>
+							<li>Python</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
 		<div class="section" id="links">Some section</div>
 	</div>
 </body>
 
-</body>
+<script src="js/script.js"></script>
+
 </html>

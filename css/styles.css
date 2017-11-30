@@ -33,8 +33,7 @@ body {
 	height: 100%;
 }
 
-#appetizers {
-	/*border-right: 1px double #434343ff;*/
+#appetizers, #entrees, #drinks {
 	height:100%;
 }
 
@@ -49,9 +48,6 @@ body {
 	height: 300px;
 }
 
-#entrees {
-	height: 100%;
-}
 
 #me {
 	display: block;
@@ -69,6 +65,10 @@ body {
 
 #projects {
 	background-color: #b7b7b7ff;
+}
+
+.docker, .gubernator, .research {
+	display: none;
 }
 
 #links {
