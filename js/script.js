@@ -16,6 +16,7 @@ $(document).ready(function() {
 	if (isMobile) {
 		console.log("mobile");
 		fit = false;
+		$("#projects").addClass("fp-auto-height");
 	}
 	$('#fullpage').fullpage({
 		menu: '#menu',
