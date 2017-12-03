@@ -112,6 +112,7 @@ body {
 
 #icons {
 	padding-left: 5%;
+	padding-bottom: 4%;
 }
 
 #github {
@@ -122,4 +123,9 @@ body {
 	display: block;
 	height: 300px;
 	margin: auto;
+}
+
+#me.mobile {
+	width: 80%;
+	height: auto;
 }
