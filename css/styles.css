@@ -65,7 +65,8 @@ hr {
 }
 
 #me2.mobile {
-	height: 200px;
+	width: 80%;
+	height: auto;
 }
 
 #about-text {
@@ -129,6 +130,6 @@ hr {
 }
 
 #me.mobile {
-	width: 80%;
+	width: 70%;
 	height: auto;
 }
