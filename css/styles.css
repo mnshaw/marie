@@ -106,8 +106,7 @@ hr {
 }
 
 #takeout {
-	position: absolute;
-	bottom: 5%;
+	padding-bottom: 5%;
 }
 
 #cookie {
@@ -116,6 +115,7 @@ hr {
 }
 
 #fortune-text {
+	margin-bottom	: 10%;
 }
 
 #icons {
