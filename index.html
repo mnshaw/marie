@@ -104,8 +104,10 @@
 					<h2 style="text-align:right; margin-right:5%; margin-top:-3%;">Projects</h2>
 					<hr>
 
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/wSzZxbDYgtY" frameborder="0" class="docker video" allowfullscreen></iframe>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/2ay_8a6-EYM" frameborder="0" class="gubernator video" allowfullscreen></iframe>
+					<div class="videoWrapper docker gubernator">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/wSzZxbDYgtY" frameborder="0" class="docker video" allowfullscreen></iframe>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/2ay_8a6-EYM" frameborder="0" class="gubernator video" allowfullscreen></iframe>
+					</div>
 
 					<hr class="gubernator docker">
 
@@ -222,19 +224,27 @@
 
 		<div class="section" id="links">
 			<div class="container">
+				<div class="col-sm-12" id="fortune">
+					<h2><b>Fortune Cookie</b></h2>
+					<hr>
+					<div id="cookie">
+						<button type="button" id="fortune-btn" class="btn btn-primary">Click Me!</button>
+						<h3>Your Fortune:</h3>
+						<div id="fortune-text">
+						</div>
+					</div>
+				</div>
+
 				<div class="col-sm-12" id="takeout">
 					<h2><b>Takeout</b></h2>
 					<h2 style="text-align:right; margin-right:5%; margin-top:-3%;">Links</h2>
 					<hr>
 					
-					<div class="col-sm-6">
+					<div class="col-sm-6" id="icons">
 						
-						<!-- <div id="linkedin"> -->
-						<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="mnshaw"><a class="LI-simple-link" href='https://www.linkedin.com/in/mnshaw?trk=profile-badge'>Marie Shaw</a></div>
-						<!-- </div> -->
-						<div id="github">
-							<iframe src="http://githubbadge.appspot.com/mnshaw" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
-						</div>
+						<a href="https://www.linkedin.com/in/mnshaw/" target="_blank"><img src="images/linkedin.png" alt="linkedin logo" style="height:32px;"></a>
+						<a href="https://github.com/mnshaw" target="_blank"><img src="images/github.png" alt="github logo"></a>
+
 					</div>
 
 					<div class="col-sm-6">
@@ -242,14 +252,7 @@
 					</div>
 
 				</div>
-				<div class="col-sm-12" id="fortune">
-					<h2><b>Fortune Cookie</b></h2>
-					<hr>
-					<button type="button" id="fortune-btn" class="btn btn-primary">Click Me!</button>
-					<h3>Your Fortune:</h3>
-					<div id="fortune-text">
-					</div>
-				</div>
+				
 			</div>
 		</div>
 	</div>
