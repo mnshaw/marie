@@ -2,6 +2,9 @@ body {
 	font-family: 'Inconsolata', monospace;
 }
 
+hr {
+	border-top-color: #333;
+}
 #menu {
 	background-color: #d9d9d9ff;
 	height: 100%;
@@ -33,7 +36,7 @@ body {
 
 /* Second section/About page */
 #about {
-	background-color: #999999ff;
+	background-color: #f5f5dc; /*#999999ff;*/
 }
 
 #about li {
@@ -71,7 +74,7 @@ body {
 
 /* Third section/Projects page */
 #projects {
-	background-color: #b7b7b7ff;
+	background-color: #dcdcf5; /*#b7b7b7ff;*/
 }
 
 .docker, .gubernator, .research {
@@ -98,7 +101,7 @@ body {
 
 /* Fourth section/Links and Fortune Cookie */
 #links {
-	background-color: #ccccccff;
+	background-color: #d9d9d9ff;
 }
 
 #takeout {
