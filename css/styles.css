@@ -34,6 +34,15 @@ hr {
 	color: #333;
 }
 
+.arrow {
+	position: absolute;
+	width: 48px;
+	bottom: 10px;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+
 /* Second section/About page */
 #about {
 	background-color: #f5f5dc; /*#999999ff;*/
@@ -111,11 +120,7 @@ hr {
 
 #cookie {
 	padding-left: 5%;
-	margin-bottom: 10%;
-}
-
-#fortune-text {
-	margin-bottom	: 10%;
+	margin-bottom: 5%;
 }
 
 #icons {
