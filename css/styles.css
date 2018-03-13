@@ -94,6 +94,25 @@ hr {
 	margin-bottom: 2%;
 }
 
+.btn:hover {
+	background-color: #adadad;
+}
+
+.btn:active, .btn:active:focus {
+	background-color: #434343ff;
+	border-color: #434343ff;	
+	box-shadow: none;
+}
+
+.btn-primary:active {
+	box-shadow: none;
+}
+
+.btn-primary, .btn-primary:active:focus {
+	background-color: #434343ff !important;
+	border-color: #434343ff;
+}
+
 .videoWrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
